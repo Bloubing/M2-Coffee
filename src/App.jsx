@@ -4,12 +4,12 @@ import SettingsPage from "./SettingsPage";
 import ProductShowPage from "./ProductShowPage";
 import FavouritePage from "./FavouritePage";
 import VendingMachinePage from "./VendingMachinePage";
-
+import MapPage from "./MapPage";
 export default function App() {
   return (
     <div>
-      <VendingMachinePage />
-      <nav className=" fixed py-2 text-gray-500 text-sm bottom-0 flex justify-evenly w-full">
+      <ProductListPage />
+      <nav className="bg-white border-black/40 border-1 fixed py-4 rounded-t-3xl  text-gray-500 text-sm bottom-0 flex justify-evenly w-full">
         <div className="flex flex-col">
           <svg
             xmlns="http://www.w3.org/2000/svg"
